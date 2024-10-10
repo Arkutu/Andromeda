@@ -11,6 +11,7 @@ module com.example.andromeda {
     requires net.synedra.validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
+    requires org.kordamp.ikonli.fontawesome5;
 
     opens com.example.andromeda to javafx.fxml;
     exports com.example.andromeda;

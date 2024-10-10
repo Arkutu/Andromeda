@@ -1,0 +1,230 @@
+/* General Styles */
+.root {
+    -fx-font-family: 'Open Sans', sans-serif;
+    -fx-background-color: #F5F5F5;
+}
+
+/* Top Bar */
+.top-bar {
+    -fx-background-color: #3498DB;
+    -fx-padding: 15px 20px;
+    -fx-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    -fx-border-radius: 0 0 10px 10px;
+}
+.screen-title {
+    -fx-text-fill: white;
+    -fx-font-size: 1.8em;
+    -fx-font-weight: 600;
+}
+.icon-button {
+    -fx-background-color: transparent;
+    -fx-padding: 8px;
+}
+.icon-button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+.icon-button .ikonli-font-icon {
+    -fx-fill: white;
+    -fx-font-size: 1.5em;
+}
+
+/* Patient List Area */
+.patient-list-area {
+    -fx-background-color: white;
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    -fx-margin: 20px;
+}
+.search-field {
+    -fx-background-color: #EEEEEE;
+    -fx-border: none;
+    -fx-padding: 10px 15px;
+    -fx-border-radius: 20px;
+    -fx-prompt-text-fill: #888;
+}
+.patient-list .list-cell {
+    -fx-padding: 12px 15px;
+    -fx-background-color: transparent;
+}
+.patient-list .list-cell:hover {
+    -fx-background-color: #E0F7FA;
+    -fx-cursor: pointer;
+}
+.patient-list .list-cell:selected {
+    -fx-background-color: #B2EBF2;
+}
+.add-patient-btn {
+    -fx-background-color: #2ECC71;
+    -fx-text-fill: white;
+    -fx-padding: 10px 15px;
+    -fx-border-radius: 20px;
+    -fx-cursor: pointer;
+    -fx-margin: 10px 0;
+}
+.add-patient-btn:hover {
+    -fx-background-color: #1E865F;
+}
+
+/* Patient Details Area */
+.patient-details-area {
+    -fx-background-color: white;
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    -fx-margin: 20px;
+}
+.patient-info {
+    -fx-padding: 15px;
+    -fx-border-bottom: 1px solid #E0E0E0;
+}
+.patient-image {
+    -fx-width: 80px;
+    -fx-height: 80px;
+    -fx-border-radius: 50%;
+    -fx-margin: 10px;
+}
+.patient-name {
+    -fx-font-size: 1.2em;
+    -fx-font-weight: 600;
+}
+.patient-id {
+    -fx-font-size: 0.9em;
+    -fx-color: #666;
+}
+.edit-btn {
+    -fx-background-color: #3498DB;
+    -fx-text-fill: white;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 20px;
+    -fx-cursor: pointer;
+    -fx-margin: 10px 0;
+}
+.edit-btn:hover {
+    -fx-background-color: #2980B9;
+}
+
+/* Custom Fields */
+.custom-fields-container {
+    -fx-padding: 10px;
+    -fx-border: 1px solid #E0E0E0;
+    -fx-border-radius: 10px;
+}
+.field-row {
+    -fx-padding: 10px;
+    -fx-border-bottom: 1px solid #E0E0E0;
+}
+.field-name {
+    -fx-font-size: 1em;
+    -fx-font-weight: 600;
+}
+.field-value {
+    -fx-font-size: 1em;
+}
+.remove-field-btn {
+    -fx-background-color: #E74C3C;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 10px;
+    -fx-cursor: pointer;
+}
+.remove-field-btn:hover {
+    -fx-background-color: #C0392B;
+}
+
+/* Add Field Button */
+.add-field-btn {
+    -fx-background-color : #2ECC71;
+    -fx-text-fill: white;
+    -fx-padding: 10px 15px;
+    -fx-border-radius: 20px;
+    -fx-cursor: pointer;
+    -fx-margin: 10px 0;
+}
+.add-field-btn:hover {
+    -fx-background-color: #1E865F;
+}
+
+
+
+
+/*  kkaa */
+.patient-screen {
+    -fx-background-color: #f0f4f8;
+}
+
+.patient-list-area {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+.section-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.search-box {
+    -fx-background-color: #f0f4f8;
+    -fx-background-radius: 5px;
+}
+
+.patient-list {
+    -fx-background-color: transparent;
+}
+
+.add-patient-btn, .edit-btn, .add-field-btn, .save-btn {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.patient-details-area {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+.patient-info {
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 10 0 20 0;
+}
+
+.patient-image-container {
+    -fx-background-color: #f0f4f8;
+    -fx-background-radius: 50%;
+}
+
+.patient-name {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.patient-id {
+    -fx-text-fill: #7f8c8d;
+}
+
+.patient-tabs .tab-header-area .tab-header-background {
+    -fx-background-color: #f0f4f8;
+}
+
+.patient-tabs .tab {
+    -fx-background-color: transparent;
+}
+
+.patient-tabs .tab:selected {
+    -fx-background-color: white;
+}
+
+.field-row {
+    -fx-background-color: #f0f4f8;
+    -fx-background-radius: 5px;
+    -fx-padding: 10;
+}
+
+.remove-field-btn {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+}
+
+.add-patient-dialog {
+    -fx-background-color: white;
